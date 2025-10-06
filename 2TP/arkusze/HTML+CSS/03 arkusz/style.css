@@ -1,0 +1,62 @@
+
+* {
+  font-family: Garamond, serif;
+  color: white;
+}
+
+
+header {
+  background-color: Indigo;
+  text-align: center;
+  padding: 2px;
+}
+
+.content {
+  display: flex;
+}
+
+
+.left, .right {
+  background-color: Indigo;
+  height: 600px;
+  width: 20%;
+}
+
+
+main {
+  background-color: black;
+  height: 600px;
+  width: 60%;
+}
+
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button{
+    color: black;
+}
+
+
+footer {
+  background-color: Indigo;
+  height: 150px;
+}
+
+
+li {
+  margin: 10px 0;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: underline;
+}

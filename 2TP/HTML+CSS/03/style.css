@@ -1,0 +1,11 @@
+
+    body {
+      font-family: serif;
+      color: white;
+      text-align: center;
+      letter-spacing: 5px;
+      word-spacing: 30px;
+      background-color: #333;
+      padding: 10px;
+      font-size: 40px;
+    }

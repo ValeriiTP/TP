@@ -1,0 +1,16 @@
+li{
+    display: inline;
+}
+
+.image-grid {
+ width: 800px;
+  height: 800px;
+  margin: 0 auto;           
+}
+.image-grid > img{
+    float: left;
+  border: 2px solid black;
+  width: 45%;
+  margin: 1.66%;
+}
+

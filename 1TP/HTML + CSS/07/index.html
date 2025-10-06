@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz Wprowadzania Danych</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Wyśrodkowanie poziome */
+            align-items: center; /* Wyśrodkowanie pionowe */
+            background-color: lightgray;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            max-width: 400px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            margin-top: 10px;
+            display: block;
+        }
+        button {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://valeriitp.github.io/wsiprojecty/" method="get">
+        <h1 style="text-align: center;">Formularz</h1>
+        <label for="name">Imię i nazwisko</label>
+        <input type="text" id="name" name="name" placeholder="Imię" required>
+        <input type="text" id="surname" name="surname" placeholder="Nazwisko" required>
+        
+        <label for="email">E-mail i hasło</label>
+        <input type="email" id="email" name="email" placeholder="E-mail" required>
+        <input type="password" id="password" name="password" placeholder="Hasło" required>
+        
+        <label for="numer">Numer</label>
+        <input type="number" id="numer" name="numer" placeholder="Numer" required>
+        
+        <label for="country">Kraj</label>
+        <select id="country" name="country" required>
+            <option value="ua" selected>Ukraina</option>
+            <option value="pl">Polska</option>
+        </select>
+        
+        <label>Płeć:</label>
+        <div class="radio-group">
+            <label><input type="radio" name="gender" value="male" required> Mężczyzna</label>
+            <label><input type="radio" name="gender" value="female" required> Kobieta</label>
+        </div>
+        
+        <label><input type="checkbox" required> Zgadzam się ze wszystkimi warunkami</label>
+        
+        <button type="submit">Wyślij</button>
+        <button type="reset">Zresetuj</button>
+    </form>
+</body>
+</html>

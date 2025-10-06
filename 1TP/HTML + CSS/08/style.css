@@ -1,0 +1,44 @@
+#left {
+    background-color: dimgray;
+    width: 500px;
+    height: 500px;
+}
+#right {
+    background-color: dimgrey;
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+
+}
+    #img{
+        display: block;
+        margin: auto;
+        height: auto;
+        width: auto;
+    }
+
+#all {
+    display: flex;
+    height: 100vh;
+}
+#tabele {
+    table, th, td {
+		border: 3px solid black;
+       width: 200px;
+	}
+}
+#text {
+    text-align: center;
+}
+#header {
+    background-color: dimgrey;
+    width: 1090;
+    height: 350px;
+text-align: center;
+flex: 1;
+height: 100%;
+}
+#left,#right{
+    flex: 1;
+    height: 100%;
+}

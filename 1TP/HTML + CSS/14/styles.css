@@ -1,0 +1,79 @@
+p {
+    font-size: 18px; 
+}
+
+.large-font {
+    font-size: 30px;
+}
+
+
+h2 {
+    font-family: 'Arial', sans-serif; 
+}
+
+.custom-font {
+    font-family: 'Times New Roman'; 
+}
+
+
+h1 {
+    color: #ff5733; 
+}
+
+p {
+    color: rgb(0, 128, 255); 
+}
+
+
+h2 {
+    text-transform: uppercase; 
+}
+
+.lowercase-text {
+    text-transform: lowercase; 
+}
+
+
+h3 {
+    font-style: italic; 
+}
+
+.normal-text {
+    font-style: normal; 
+}
+
+
+.wide-spacing {
+    letter-spacing: 2px; 
+}
+
+.tight-spacing {
+    letter-spacing: -0.5px; 
+}
+
+
+h1 {
+    text-align: center; 
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+
+h4 {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through; 
+}
+
+
+p {
+    line-height: 1.6;
+}
+
+.single-line {
+    line-height: 1; 
+}

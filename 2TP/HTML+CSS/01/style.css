@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: large; 
+}
+
+h1{
+    font-style: italic;
+}
+
+ul{
+    list-style-type: square;
+}
+

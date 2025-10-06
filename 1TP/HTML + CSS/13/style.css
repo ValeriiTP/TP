@@ -1,0 +1,55 @@
+
+div  {
+    width: 500px;
+    height: 250px;
+    border: 1px solid #333;
+    color: rgb(255, 0, 0);
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    text-align: center;
+    text-size-adjust: 100px;
+}
+
+
+.box1 {
+    background-color: yellow;
+    color: black;
+}
+
+
+.box2 {
+    background-image: url('makaka.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.box3 {
+    background-image: url('makaka.jpg');
+    background-repeat: repeat-x;
+}
+
+
+.box4 {
+    background-image: url('makaka.jpg');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+
+.box5 {
+    background-image: url('makaka.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.box6 {
+    background-image: url('makaka.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}

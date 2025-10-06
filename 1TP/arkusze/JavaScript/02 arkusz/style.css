@@ -1,0 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#baner {
+    width: 100%;
+}
+
+header{
+    background-color:  #625B5B;
+}
+
+body {
+    background-color:  #EAEAEA;
+}
+
+nav {
+    background-color:  #625B5B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#cc {
+    text-decoration: underline;
+    color: #625B5B;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #EAEAEA;
+    
+    
+}
+
+#cc:hover{
+    background-color: #625B5B;
+    color: #EAEAEA;
+}
+
+footer{
+    background-color:  #625B5B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#listapunkt {
+    margin-left: 40px;
+    list-style-type: circle;
+}
+
+table {
+    border: dashed 1px #625B5B;
+    width: 60%;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.kontrolki {
+ margin: 5px;
+}

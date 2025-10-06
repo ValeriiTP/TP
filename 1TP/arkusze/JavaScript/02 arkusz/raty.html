@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koszt rat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img id="baner" src="klawiatura1.png" alt="kursy komputerowe">
+    </header>
+
+    <nav>
+
+        <a id="cc" href="index.html">Strona główna</a>
+        <a id="cc" href="raty.html">Koszt rat</a>
+        <a id="cc" href="https://mgle.szkolenia.pl/">Nasz partner</a>
+
+    </nav>
+
+    <main>
+        <h3>Oblicz miesięczną ratę</h3>
+        <form id="calculator">
+            <div class="kontrolki">
+                <input type="checkbox" id="react" name="kurs" value="React.js">
+                <label for="react">Kurs React.js</label>
+            </div>
+            <div class="kontrolki">
+                <input type="checkbox" id="javascript" name="kurs" value="JavaScript">
+                <label for="javascript">Kurs JavaScript</label>
+            </div>
+            <div class="kontrolki">
+                <label for="raty">Liczba rat:</label>
+                <input type="number" id="raty" name="raty" min="1">
+            </div>
+            <div class="kontrolki">
+                <select id="miasto" name="miasto">
+                    <option value="Warszawa">Warszawa</option>
+                    <option value="Katowice" selected>Katowice</option>
+                    <option value="Gdańsk">Gdańsk</option>
+                </select>
+            </div>
+            <div class="kontrolki">
+                <button onclick="obliczRate()" type="button" id="oblicz">Oblicz</button>
+            </div>
+        </form>
+
+        <p id="wynik"></p>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+<footer>Autor strony: Staruselets Valerii 17</footer>
+
+</html>

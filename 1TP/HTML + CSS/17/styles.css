@@ -1,0 +1,24 @@
+
+a.link { 
+    color: #3498db; 
+    font-size: 18px;  
+    padding: 10px;
+    transition: color 0.3s, transform 0.3s; 
+}
+
+
+a.link:hover {
+    color: #e74c3c;  
+    transform: scale(1.1);  
+}
+
+
+a.link:active {
+    color: #2ecc71;  
+    transform: scale(0.95);  
+}
+
+
+a.link:visited {
+    color: #9b59b6; 
+}

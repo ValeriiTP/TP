@@ -1,0 +1,32 @@
+
+@font-face {
+    font-family: adventpro-light ;
+    src: url(adventpro-light.ttf);
+}
+
+body {
+    background-image: url(ecoimg.webp);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 850px;
+    margin-left: 10vh;
+   font-family: adventpro-light;
+   font-size: 24px;
+    
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+h1 {
+    font-family: Poppins-ExtraLight;
+  text-align: center;
+}
+
+
+li {
+    
+}
+
+

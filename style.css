@@ -1,0 +1,179 @@
+/* Globalne ustawienia */
+body {   
+  background-image: linear-gradient(to bottom, rgb(13, 155, 0), rgb(0, 88, 0));
+  font-family: system-ui, sans-serif;         
+  margin: 0;
+  display: block;
+  text-align: center;
+  color: #26ff00;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h4, li a, p {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  color: #39ff14;
+  font-size: 3.5vh;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: rgba(0, 50, 0, 0.404);
+  border-radius: 2vh;
+  padding: 1vh 2vh;
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 1vh;
+  width: 20vh;
+  height: 7vh;
+  border: none;
+}
+
+button a {
+  text-decoration: none;
+  color: #39ff14;
+  font-size: 1.3rem;  
+}
+
+button:hover {
+  background-color: #39ff14;
+  box-shadow: 0 0 20px #39ff14, 0 0 60px #39ff14;
+}
+
+button:hover a {
+  color: black;
+}
+
+#oneTP, #twoTP, #arkuszetwoTP, footer, header, #arkuszeoneTP{
+  border-radius: 4vh;
+  margin-top: 2vh;
+  display: inline-block;
+  padding: 5vh;
+  text-decoration: none;     
+  background-color: rgba(0, 50, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 50, 0, 0.4), 0 0 30px #39ff14;
+  width: 50%;
+  border-radius: 4vh;
+}
+
+footer {
+  margin-bottom: 2vh;
+}
+
+.left {
+  position: fixed;
+  left: 2vh;
+}
+
+.right {
+  position: fixed;
+  right: 2vh;
+}
+
+.left, .right {
+  top: 2vh;
+  bottom: 2vh;
+  width: 19.6%;
+  background-color: rgba(0, 50, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 50, 0, 0.4), 0 0 30px #39ff14;
+  border-radius: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  /* Zmiana rozmiarów czcionek dla mniejszych ekranów */
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 3vh;
+  }
+
+  /* Zmiana szerokości sekcji */
+  #oneTP, #twoTP, #arkuszetwoTP, footer, header, #arkuszeoneTP {
+    width: 80%;
+    padding: 4vh;
+  }
+
+  /* Zmiana wielkości przycisków */
+  button {
+    width: 50%;
+    height: 6vh;
+  }
+
+  /* Zmiana pozycji bocznych pasków */
+  .left, .right {
+    width: 35%;
+    top: 5vh;
+    bottom: 5vh;
+  }
+
+  /* Zmiana widoczności na małych ekranach */
+  .left, .right {
+    display: none;
+  }
+
+  /* Zmniejszenie przestrzeni między elementami */
+  footer, header {
+    margin-top: 2vh;
+  }
+
+  /* Zmniejszenie paddingu w przyciskach */
+  button {
+    padding: 0.5vh 1.5vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 2.5vh;
+  }
+
+  /* Dopasowanie rozmiarów przycisków do bardzo małych ekranów */
+  button {
+    width: 70%;
+    height: 5vh;
+    padding: 1vh 2vh;
+  }
+
+  /* Przekształcenie układu w kolumny */
+  #oneTP, #twoTP, #arkuszetwoTP, footer, header, #arkuszeoneTP {
+    width: 90%;
+    padding: 3vh;
+    display: block;
+  }
+}
+

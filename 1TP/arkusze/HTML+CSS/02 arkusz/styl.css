@@ -1,0 +1,72 @@
+
+body {
+    background-color: #EEEEEE;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: LightBlue;
+    height: 100px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    margin-left: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+    margin-left: 30px;
+    color: navy;
+    font-size: 30px;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.baner {
+    background-color: #DDDDDD;
+    height: 200px;
+}
+
+.glowny {
+    color: Navy;
+    margin: 50px;
+    height: 400px;
+}
+
+footer {
+    background-color: LightBlue;
+    text-align: right;
+    padding: 10px;
+}
+
+footer strong {
+    font-weight: bold;
+}
+
+button {
+    background-color: LightBlue;
+    color: Navy;
+    font-size: 100%;
+    padding: 10px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
