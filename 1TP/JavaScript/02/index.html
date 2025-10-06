@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <title>liczby</title>
+
+    <script type="text/javascript">
+    function wypisz() {
+        var liczba1 = parseInt(document.getElementById("pole1").value);
+        var liczba2 = parseInt(document.getElementById("pole2").value);
+        var napis = "";
+
+      
+       
+       
+
+      
+        for (var i = liczba1; i >= liczba2; i--) {
+            napis += i + " ";
+        }
+        document.getElementById("wynik").innerHTML = napis;
+    }
+    </script>
+    
+    <style>
+        body {
+           background-color: #212121;
+           margin: 0;
+           height: 100vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-family: sans-serif;
+        }
+
+        #wynik {
+            text-align: center;
+            text-color: white;
+        }
+
+        input {
+            border: 2px solid rgb(95 97 110);
+            border-radius: 0.5em;
+            padding: 20px;
+            width: 10em;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" id="pole1" placeholder="Liczba 1" />
+    <input type="text" id="pole2" placeholder="Liczba 2" />
+    <input type="submit" value="Pokaż" onclick="wypisz()" />
+
+    <div id="wynik"></div>
+
+</body>
+</html>

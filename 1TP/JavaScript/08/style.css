@@ -1,0 +1,14 @@
+#miniatury {
+    height: 70px;
+    padding-left: 50px;
+    animation: slideIn 4s forwards;
+}
+
+@keyframes slideIn {
+from {
+     padding-left: 50px;
+}
+to { 
+    padding-left: 0px;
+}
+}

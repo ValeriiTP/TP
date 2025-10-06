@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>ocena</title>
+    <script>
+        function pp(){
+            const punkty = parseFloat(document.getElementById('punkty').value);
+            const ocenaElement = document.getElementById('ocena');
+            if (isNaN(punkty)||punkty<0||punkty>100){
+                ocenaElement.innerText = 'liczba punktów musi być od 0 do 100';
+return;
+            }
+            let ocena = '';
+
+            if (punkty === 100){
+                ocena = 'celująca 6';
+            }else if (punkty >=90){
+                ocena='bardzo dobra 5';
+            }else if (punkty >=75){
+                ocena='dobra 4';
+            }else if (punkty >=50){
+                ocena='dostateczna 3';
+            }else if (punkty >=30){
+                ocena='dopuszczająca 2';
+            }else {
+                ocena='Niedostateczna 1';
+            }
+            ocenaElement.innerText = ocena;
+        }
+    </script>
+    <style>
+        
+        body {
+            background-color: #212121; 
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            font-size: 36px;
+            color: #ecf0f1; 
+            margin-top: 50px;
+        }
+
+       
+        .container {
+            margin-top: 30px;
+        }
+
+        label {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+ 
+        input[type="number"] {
+            padding: 10px;
+            width: 250px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 2px solid #bdc3c7;
+            margin-bottom: 20px;
+        }
+
+      
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #d81515;
+            border: none;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #757c7b; 
+        }
+
+        
+        #wynik {
+            margin-top: 30px;
+            padding: 20px;
+            border: 2px solid #bdc3c7;
+            border-radius: 10px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #d81515;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Sprawdzian z matematyki</h2>
+    <label for="punkty">Zdobyte punkty</label>
+    <input type="number" id="punkty" min="0" max="100">
+    <button onclick="pp()">Sprawdż</button>
+    <div id="wynik">
+    
+    <h3>Ocena</h3>
+    <p id="ocena"></p>
+</div>
+</body>
+</html>

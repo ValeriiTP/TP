@@ -1,0 +1,12 @@
+.blur {
+    filter: blur(4px);
+}
+
+.szary {
+    filter: grayscale(100%);
+}
+
+img {
+    transition: filter 0.3s ease;
+    width: 300px;
+}

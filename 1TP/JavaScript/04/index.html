@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function sp(){
+            let input = document.getElementById("liczba").value;
+            let liczba = parseFloat(input);
+            if (isNaN(liczba)){
+                document.getElementById("wynik").innerText = "wprowadż liczbę";
+                return;
+            }
+            if (liczba % 2===0){
+                document.getElementById("wynik").innerText = "liczba parzysta";
+            } else{
+                document.getElementById("wynik").innerText = "liczba nie parzysta";
+            }
+        }
+    </script>
+    <style>
+        body {
+           background-color: #212121;
+           margin: 0;
+           height: 100vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-family: sans-serif;
+        }
+
+        #wynik {
+            text-align: center;
+            text-color: white;
+        }
+
+        input {
+            border: 2px solid rgb(95 97 110);
+            border-radius: 0.5em;
+            padding: 20px;
+            width: 10em;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="liczba">
+    <button onclick="sp()">Sprawdż</button>
+    <p id="wynik"></p>
+</body>
+</html>
