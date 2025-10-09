@@ -1,0 +1,56 @@
+.zadanie1{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-bottom: 35px;
+    background-color: #a00d0d;
+    width: 300px;
+}
+body{
+        font-size:16px;
+}
+
+.zadanie2{
+    margin-top: 30px;
+}
+.zadanie2 p{
+    color: #fff;
+    background: #0a63a6;
+    width: 520px;
+    margin: 8px 0;
+}
+
+.one-value{ 
+    padding:20px; 
+}
+.two-values{
+     padding:10px 30px; 
+    }
+.three-values{ 
+    padding:5px 15px 25px; 
+}
+.four-values{ 
+    padding:2px 6px 8px 12px;
+ }
+
+
+.zadanie3{
+    margin-top: 30px;
+}
+.zadanie3 .legend{
+    margin-bottom: 8px;
+    color:#333;
+    font-style:italic;
+}
+.btn{
+
+    background: #2a9d8f;
+    cursor: pointer;
+}
+.btn.padded{
+    padding: 18px 28px;
+}
+.btn.spaced{
+    margin-left: 20px; 
+    padding: 6px 12px; 
+}
